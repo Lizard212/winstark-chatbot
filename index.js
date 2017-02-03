@@ -64,7 +64,7 @@ function receivedMessage(event) {
 
   var messageId = message.mid;
   var messageText = message.text;
-  var messageAttachments = messsage.attachments;
+  var messageAttachments = message.attachments;
 
   if(messageText) { 
     switch (messageText) {
