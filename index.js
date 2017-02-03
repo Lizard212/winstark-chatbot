@@ -1,4 +1,4 @@
-var logger = requie('morgan');
+var logger = require('morgan');
 var http = require('http');
 var request = require('request');
 var bodyParser = require('body-parser');
