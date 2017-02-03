@@ -29,7 +29,7 @@ app.get('/webhook', function(req, res) {
 app.set('port', (process.env.PORT || 5000));
 
 server.listen(app.get('port'), function() {
-  console.log('Chat bot server listening at ', app,get('port'));
+  console.log('Chat bot server listening at ', app.get('port'));
 });
 
 
